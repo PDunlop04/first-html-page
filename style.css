@@ -1,0 +1,117 @@
+.center {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between; /* Places elements on opposite sides */
+  align-items: flex-start; /* Aligns items at the top */
+  gap: 20px; /* Adds space between content and facts */
+  max-width: 900px; /* Adjust based on your layout */
+  margin: auto; /* Centers the layout */
+}
+
+.content {
+  flex: 1; 
+  max-width: 600px;
+}
+
+.About {
+  text-decoration:underline;
+  font-size:25px;
+  text-align: left;
+}
+
+.facts {   
+  background-color: rgba(255, 255, 255, 0.7); 
+  width:250px; 
+  height: 270px;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 15px; 
+  color:#001d39; 
+}
+
+h2 {
+  font-size:25px;
+  color: #002c00;
+  text-align: center;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px; 
+  display: block; 
+  width: fit-content; 
+  margin: 0 auto; 
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration:underline;
+  color: #002c00;
+}
+
+h4 {
+  font-size:20px;
+  color: #002c00;
+  text-align: center;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px; 
+  display: block; 
+  width: fit-content; 
+  margin: 0 auto; 
+  border-radius: 5px;
+}
+
+p {
+  color: #002c00;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px; 
+  display: inline-block; 
+  border-radius: 5px; 
+}
+
+p.bigger-text {
+  font-size:120%;
+}
+
+/* this makes my backround animated with a helper function */
+body {
+  background-image: url('images/pokemon.jpg');
+  background-size: cover; 
+  background-repeat: repeat-x; 
+  background-position: 0 0;
+  animation: scrollBackground 100s linear infinite; 
+}
+
+@keyframes scrollBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 200% 0; 
+  }
+}
+
+/* this stuff is extra for my index */
+
+.pokemon {
+  width:250px; 
+  height: 270px;
+  padding: 15px; 
+}
+
+.image-container {
+  padding: 15px; 
+  display: flex; /* Makes images appear side by side */
+  gap: 20px; /* Adds space between images */
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
