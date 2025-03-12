@@ -1,5 +1,5 @@
 # first-html-page
-this is my firts html page made with the help of a workshop delivered through UVIC. It introduced me to the functionalities of HTML and CSS.
+this is my firts HTML page made with the help of a workshop delivered through UVIC. It introduced me to the functionalities of HTML and CSS.
 ## Features 🚀
 - animated scrolling background
 - differing uses of format
